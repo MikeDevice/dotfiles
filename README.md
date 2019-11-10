@@ -1,2 +1,7 @@
 # dotfiles
-my dotfiles
+
+### Instalation
+
+```
+./dotfiles/install.sh
+```
