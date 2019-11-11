@@ -1,2 +1,2 @@
-[merge]
-  tool = code
+[core]
+  editor = code --wait

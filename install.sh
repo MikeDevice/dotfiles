@@ -7,7 +7,7 @@ if ! grep -Fxq "source ~/dotfiles/bashrc" ~/.bashrc ; then
 fi
 
 # git
-ln -sf ./dotfiles/gitconfig ~/.gitconfig
+cat ./dotfiles/gitconfig >> ~/.gitconfig
 
 # npm
-ln -sf ./dotfiles/npmrc ~/.npmrc
+cat ./dotfiles/npmrc >> ~/.npmrc
