@@ -8,6 +8,7 @@
   a = add .
   b = branch
   c = checkout
+  cb = checkout -b
   d = diff
   p = push
   s = status -sb
