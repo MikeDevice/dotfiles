@@ -1,2 +1,11 @@
 [core]
   editor = code --wait
+[alias]
+  st = status -sb
+  br = branch
+  ck = checkout
+  ca = commit --ammend
+  cm = commit --message
+  rba = rebase --abort
+  rbc = rebase --continue
+  rbi = rebase --interactive
