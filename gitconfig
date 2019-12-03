@@ -9,3 +9,5 @@
   rba = rebase --abort
   rbc = rebase --continue
   rbi = rebase --interactive
+  a = add .
+  p = push
