@@ -5,13 +5,14 @@
   default = current
 
 [alias]
-  st = status -sb
-  br = branch
-  ck = checkout
+  a = add .
+  b = branch
+  c = checkout
+  d = diff
+  p = push
+  s = status -sb
   ca = commit --amend
   cm = commit --message
   rba = rebase --abort
   rbc = rebase --continue
   rbi = rebase --interactive
-  a = add .
-  p = push
