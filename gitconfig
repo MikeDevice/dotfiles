@@ -4,7 +4,7 @@
   st = status -sb
   br = branch
   ck = checkout
-  ca = commit --ammend
+  ca = commit --amend
   cm = commit --message
   rba = rebase --abort
   rbc = rebase --continue
