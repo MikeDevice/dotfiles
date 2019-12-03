@@ -1,5 +1,9 @@
 [core]
   editor = code --wait
+
+[push]
+  default = current
+
 [alias]
   st = status -sb
   br = branch
