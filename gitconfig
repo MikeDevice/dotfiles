@@ -7,12 +7,16 @@
 [alias]
   a = add .
   b = branch
+  bd = branch -D
   c = checkout
   cb = checkout -b
   d = diff
+  f = fetch
   p = push
+  pl = pull
   s = status
   ca = commit --amend
+  can = commit --amend --no-verify
   cm = commit --message
   r = rebase
   ra = rebase --abort
