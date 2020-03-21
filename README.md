@@ -3,5 +3,5 @@
 ### Instalation
 
 ```
-./dotfiles/install.sh
+./install.sh
 ```

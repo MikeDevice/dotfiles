@@ -6,19 +6,32 @@
 
 [alias]
   a = add .
-  b = branch
-  bd = branch -D
-  c = checkout
-  cb = checkout -b
   d = diff
-  f = fetch
-  p = push
-  pl = pull
   s = status
+
   ca = commit --amend
   can = commit --amend --no-verify
   cm = commit --message
+  cn = commit --no-verify
+
+  f = fetch
+  p = push
+  pl = pull
+
+  st = stash
+  stc = stash clear
+  stl = stash list
+  stp = stash pop
+
+  b = branch
+  bd = branch -D
+  bm = branch -m
+
+  c = checkout
+  cb = checkout -b
+
   r = rebase
   ra = rebase --abort
   rc = rebase --continue
   ri = rebase --interactive
+  ro = rebase --onto
