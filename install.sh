@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+./scripts/install.sh
+
 files=(
   bashrc
   gitconfig
