@@ -33,5 +33,6 @@
   r = rebase
   ra = rebase --abort
   rc = rebase --continue
+  rs = rebase --skip
   ri = rebase --interactive
   ro = rebase --onto
